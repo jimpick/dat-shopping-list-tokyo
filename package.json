@@ -1,0 +1,53 @@
+{
+  "name": "dat-shopping-list",
+  "version": "0.0.9",
+  "description": "A demo of Dat multiwriter support (hyperdrive+hyperdb) in a PWA",
+  "author": "Jim Pick (@jimpick)",
+  "main": "server/index.js",
+  "bin": {
+    "dat-shopping-list": "./server/index.js"
+  },
+  "scripts": {
+    "start": "node server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jimpick/dat-shopping-list.git"
+  },
+  "dependencies": {
+    "brfs": "^2.0.1",
+    "budo": "^11.5.0",
+    "choo": "^6.13.1",
+    "choo-service-worker": "^2.4.0",
+    "clipboard-copy": "^2.0.1",
+    "compression": "^1.7.3",
+    "dat-colors": "^3.5.1",
+    "deep-equal": "^1.0.1",
+    "express": "^4.16.4",
+    "express-ws": "^4.0.0",
+    "file-saver": "^2.0.0",
+    "focus-trap": "^3.0.0",
+    "helmet-csp": "^2.7.1",
+    "hsts": "^2.1.0",
+    "hyperdiscovery": "^8.0.0",
+    "jszip": "^3.1.5",
+    "mkdirp": "^0.5.1",
+    "monotonic-timestamp-base36": "^1.0.0",
+    "nocache": "^2.0.0",
+    "pretty-hash": "^1.0.1",
+    "random-access-idb": "^1.0.4",
+    "random-access-memory": "^3.0.0",
+    "sharp": "^0.21.0",
+    "sheetify": "^7.3.3",
+    "sheetify-nested": "^1.0.2",
+    "sw-precache": "^5.2.1",
+    "thunky": "^1.0.3",
+    "to-buffer": "^1.1.1",
+    "websocket-stream": "^5.1.2",
+    "@jimpick/hyperdrive-next": "^9.12.3-6"
+  },
+  "engines": {
+    "node": "9.x"
+  },
+  "license": "MIT"
+}
