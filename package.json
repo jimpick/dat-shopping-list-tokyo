@@ -44,7 +44,7 @@
     "thunky": "^1.0.3",
     "to-buffer": "^1.1.1",
     "websocket-stream": "^5.1.2",
-    "@jimpick/hyperdrive-next": "^9.12.3-6"
+    "@jimpick/hyperdrive-next": "^9.12.3-7"
   },
   "engines": {
     "node": "9.x"
